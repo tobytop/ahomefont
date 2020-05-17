@@ -156,4 +156,7 @@ export default {
   border-left: 1px solid #dcdfe3;
   right: 26px;
 }
+.van-sidebar-item{
+  padding: 21px 0.55rem;
+}
 </style>
