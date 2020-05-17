@@ -23,108 +23,30 @@
           <van-sidebar-item title="家电清洗" />
         </van-sidebar>
       </van-col>
-      <van-col span="19" type="flex" justify="space-between" style="background-color: #fff;padding-top: 10px;position:relative;z-index:1;">
+      <van-col span="19" type="flex" justify="space-between" class="maingrid">
         <van-image
           style="margin-left:12px;margin-right:10px;"
           radius="4"
           src="http://ahome.oss-cn-hangzhou.aliyuncs.com/Product/20200323154325174.jpg"
         />
-        <div style="font-size: 14px;margin: 0 0 2px 12px;font-size: 0.85rem;">保洁服务</div>
-        <van-grid square :column-num="3" :gutter="10">
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-1.jpg" />
-            <div style="font-size: 0.85rem;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-2.jpg" />
-            <div style="font-size: 0.85rem;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-3.jpg" />
-            <div style="font-size: 0.85rem;">包月保洁</div>
-          </van-grid-item>
-        </van-grid>
-        <div style="height: 10px;background-color:#f7f8fa;"></div>
-        <div style="font-size: 14px;margin: 0 0 2px 12px;">家电清洗</div>
-        <van-grid square :column-num="3" :gutter="10">
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-1.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-2.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-3.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-        </van-grid>
-        <div style="height: 10px;background-color:#f7f8fa;"></div>
-        <div style="font-size: 14px;margin: 0 0 2px 12px;">家电清洗</div>
-        <van-grid square :column-num="3" :gutter="10">
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-1.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-2.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-3.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-        </van-grid>
-        <div style="height: 10px;background-color:#f7f8fa;"></div>
-        <div style="font-size: 14px;margin: 0 0 2px 12px;">家电清洗</div>
-        <van-grid square :column-num="3" :gutter="10">
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-1.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-2.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-3.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-        </van-grid>
-        <div style="height: 10px;background-color:#f7f8fa;"></div>
-        <div style="font-size: 14px;margin: 0 0 2px 12px;">家电清洗</div>
-        <van-grid square :column-num="3" :gutter="10">
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-1.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-2.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-3.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-        </van-grid>
-        <div style="height: 10px;background-color:#f7f8fa;"></div>
-        <div style="font-size: 14px;margin: 0 0 2px 12px;">家电清洗</div>
-        <van-grid square :column-num="3" :gutter="10">
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-1.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-2.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-          <van-grid-item>
-            <van-image src="https://img.yzcdn.cn/vant/apple-3.jpg" />
-            <div style="font-size: 14px;">包月保洁</div>
-          </van-grid-item>
-        </van-grid>
-        <div style="height: 10px;background-color:#f7f8fa;"></div>
+        <div v-for="(item,key) in catalogitem" :key="key">
+          <div class="catalogtitle">保洁服务{{item}}</div>
+          <van-grid square :column-num="3" :gutter="10">
+            <van-grid-item>
+              <van-image src="https://img.yzcdn.cn/vant/apple-1.jpg" />
+              <div class="catalogitem">包月保洁</div>
+            </van-grid-item>
+            <van-grid-item>
+              <van-image src="https://img.yzcdn.cn/vant/apple-2.jpg" />
+              <div class="catalogitem">包月保洁</div>
+            </van-grid-item>
+            <van-grid-item>
+              <van-image src="https://img.yzcdn.cn/vant/apple-3.jpg" />
+              <div class="catalogitem">包月保洁</div>
+            </van-grid-item>
+          </van-grid>
+          <div class="divid"></div>
+        </div>
       </van-col>
     </van-row>
   </div>
@@ -135,7 +57,10 @@ export default {
   data() {
     return {
       keyword: "",
-      activeKey: 0
+      activeKey: 0,
+      catalogitem:[
+        "a","b","c","d","e","f"
+      ],
     };
   }
 };
@@ -158,5 +83,23 @@ export default {
 }
 .van-sidebar-item{
   padding: 21px 0.55rem;
+}
+.catalogtitle{
+  font-size: 14px;
+  margin: 3px 0 2px 12px;
+  font-size: 0.85rem;
+}
+.maingrid{
+  background-color: #fff;
+  padding-top: 10px;
+  position:relative;
+  z-index:1;
+}
+.catalogitem{
+  font-size: 0.85rem;
+}
+.divid{
+  height: 10px;
+  background-color:#f7f8fa;
 }
 </style>
