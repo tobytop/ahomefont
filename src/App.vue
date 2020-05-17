@@ -42,9 +42,9 @@ export default {
 .van-nav-bar .van-icon {
   color: #2eb2a1;
 }
-.van-card {
+/* .van-card {
   padding-left: 0px;
-}
+} */
 .van-switch--on,
 .van-address-item .van-radio__icon--checked .van-icon {
   background-color: #2eb2a1;
