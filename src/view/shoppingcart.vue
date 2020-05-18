@@ -7,7 +7,7 @@
     >
       <van-row type="flex" justify="center" style="background-color: #fafafa">
         <van-col class="selectitem" span="3">
-          <van-checkbox v-model="checked" />
+          <van-checkbox v-model="item.ischecked" />
         </van-col>
         <van-col span="21">
           <van-card
@@ -15,7 +15,7 @@
             origin-price="1.00"
             price="2.00"
             desc="息描述描述信息述信息息描述描述信息述信息息描述描述信息述信息息描述描述信息述信息息描述描述信息述信息息描述描述信息述信息息描述描述信息述信息息描述描述信息述信息"
-            :title="'商品标题' + item"
+            :title="'商品标题' + item.title"
             thumb="https://img.yzcdn.cn/vant/ipad.jpeg"
           >
             <template #num>
@@ -48,16 +48,24 @@
       button-type="default"
       @submit="onSubmit"
     >
-      <van-checkbox v-model="checked">全选</van-checkbox>
+      <van-checkbox v-model="checked" @click="checkproduct">全选</van-checkbox>
     </van-submit-bar>
   </div>
 </template>
+
 <script>
 export default {
   data() {
     return {
-      checked: true,
-      productlist: ["a", "b", "c", "d", "e", "f"]
+      checked: false,
+      productlist: [
+        { title: "a" },
+        { title: "b" },
+        { title: "c" },
+        { title: "d" },
+        { title: "e" },
+        { title: "f" }
+      ]
     };
   },
   methods: {
@@ -68,13 +76,34 @@ export default {
       this.$router.push("/orderpage");
     },
     showdelete(key) {
-      //console.log(key);
       this.$refs.productitem[key].open("right");
+    },
+    checkproduct() {
+      var canchecked = this.checked;
+      this.productlist.forEach(item => {
+        this.$set(item, "ischecked", canchecked);
+      });
     }
+    // checkproductone() {
+    //   let allchecked = true;
+    //   for (let index = 0; index < this.productlist.length; index++) {
+    //     if (!this.productlist[index].ischecked) {
+    //       this.checked = false;
+    //       allchecked = false;
+    //       break;
+    //     }
+    //   }
+    //   if (allchecked) {
+    //     this.checked = true;
+    //   }
+    // }
   }
 };
 </script>
 <style scoped>
+.van-card__thumb {
+  margin-right: 0px;
+}
 .van-divider {
   margin: 5px 0px;
 }

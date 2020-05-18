@@ -78,4 +78,10 @@ export default {
   background-color: #2eb2a1;
   border: 1px solid #2eb2a1;
 }
+.van-address-item__edit {
+  right: 0px;
+}
+.van-address-item__tag {
+  padding-top: 2px;
+}
 </style>
