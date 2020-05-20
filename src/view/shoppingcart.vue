@@ -42,7 +42,7 @@
     </van-swipe-cell>
     <van-divider style="margin-bottom: 110px;">已经到底了</van-divider>
     <van-submit-bar
-      style="bottom:52px;"
+      style="bottom:50px;"
       :price="3050"
       button-text="提交订单"
       button-type="default"
