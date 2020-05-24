@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="padding-bottom:47px;">
       <van-image lazy-load v-for="(item,index) in images" v-bind:key="index" :src="item" >
             <template v-slot:loading>
                 <van-loading type="spinner" size="20" />

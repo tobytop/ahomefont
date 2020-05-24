@@ -24,7 +24,7 @@
       </van-col>
       <van-col class="conpou-middle" span="1">
       </van-col>
-      <van-col style="text-align:left;padding:10px;" span="13">
+      <van-col style="text-align:left;padding:10px;position:relative;top:3px;" span="13">
             <div style="color: #333;font-weight: bold;padding-bottom: 5px;">包月续费-立减券</div>
             <div style="font-size: 13px;color:gray;padding-bottom:5px;">
                 有效期至：2020.05.08
